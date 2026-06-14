@@ -1,0 +1,36 @@
+# Environment variables
+.env
+.env.local
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Azure credentials
+azure_credentials.json
+config.json
+
+# Local databases
+*.db
+*.sqlite3
